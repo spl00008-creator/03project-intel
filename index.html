@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Intel: Sustainability Through the Ages</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.rtl.min.css" integrity="sha384-CfCrinSRH2IR6a4e6fy2q6ioOX7O6Mtm1L9vRvFZ1trBncWmMePhzvafv7oIcWiW" crossorigin="anonymous">
 </head>
 <body>
 
@@ -35,7 +36,7 @@
     <div class="container">
       <h2>1968</h2>
       <h3>Intel Founded</h3>
-      <img src="img/1.jpg">
+      <img src="img/1.jpg" alt="Illustration of Intel's early semiconductor technology and 1968 logo">
       <div class="detail">
       <p>
         Robert Noyce and Gordon Moore rename the newly formed company 
@@ -49,7 +50,7 @@
     <div class="container">
       <h2>1971</h2>
       <h3>First Microprocessor</h3>
-      <img src="img/2.jpg">
+      <img src="img/2.jpg" alt="Close-up of an early microprocessor mounted on a circuit board">
       <div class="detail">
       <p>
         Intel debuts the 4004, the world's first commercial microprocessor, 
@@ -63,7 +64,7 @@
     <div class="container">
       <h2>1978</h2>
       <h3>8086 Processor</h3>
-      <img src="img/3.jpg">
+      <img src="img/3.jpg" alt="Intel 8086 processor chip, marked 1978">
       <div class="detail">
       <p>
         Launch of the 8086 processor, establishing the x86 architecture 
@@ -76,7 +77,7 @@
     <div class="container">
       <h2>1985</h2>
       <h3>386 Processor</h3>
-      <img src="img/4.jpg">
+      <img src="img/4.jpg" alt="Intel processor on a circuit board, marked 1985">
       <div class="detail">
       <p>
         Intel introduces the 386 processor with 32-bit architecture, 
@@ -90,7 +91,7 @@
     <div class="container">
       <h2>2006</h2>
       <h3>Peak GHG Emissions</h3>
-      <img src="img/5.jpg">
+      <img src="img/5.jpg" alt="Industrial smokestacks releasing emissions">
       <div class="detail">
       <p>
         This year marks Intel's highest annual greenhouse gas emissions 
@@ -105,7 +106,7 @@
     <div class="container">
       <h2>2020</h2>
       <h3>RISE Strategy</h3>
-      <img src="img/6.jpg">
+      <img src="img/6.jpg" alt="Earth seen from space">
       <div class="detail">
       <p>
         Intel launches its RISE (Responsible, Inclusive, Sustainable, 
@@ -119,7 +120,7 @@
     <div class="container">
       <h2>2022</h2>
       <h3>Net-Zero By 2040</h3>
-      <img src="img/7.jpg">
+      <img src="img/7.jpg" alt="Green field and trees beside a rural community">
       <div class="detail">
       <p>
         Intel announces its commitment to achieve net-zero greenhouse 
@@ -133,7 +134,7 @@
     <div class="container">
       <h2>2023</h2>
       <h3>Renewable Electricity</h3>
-      <img src="img/8.jpg">
+      <img src="img/8.jpg" alt="Wind turbines generating electricity in a green field">
       <div class="detail">
       <p>
         The company achieves 99% renewable electricity usage worldwide, 
@@ -147,7 +148,7 @@
     <div class="container">
       <h2>2024</h2>
       <h3>Sustainability Summit</h3>
-      <img src="img/9.jpg">
+      <img src="img/9.jpg" alt="Delegates seated in a large assembly hall">
       <div class="detail">
       <p>
         Intel hosts its first Sustainability Summit, uniting suppliers, 
@@ -158,5 +159,75 @@
     </div>
   </section>
   <p>Scroll to view timeline | Hover over cards to learn more!</p>
+
+  <!-- Responsive three-column section -->
+  <div class="container-fluid">
+    <div class="row g-3">
+      <div class="col-12 col-md-4 d-flex flex-column">
+        <h2>Climate</h2>
+        <p>Reducing greenhouse gas emissions across operations.</p>
+        <a href="#" class="btn btn-light w-100 mt-auto">Learn more</a>
+      </div>
+      <div class="col-12 col-md-4 d-flex flex-column">
+        <h2>Water</h2>
+        <p>Improving water stewardship in manufacturing.</p>
+        <a href="#" class="btn btn-light w-100 mt-auto">Learn more</a>
+      </div>
+      <div class="col-12 col-md-4 d-flex flex-column">
+        <h2>Waste</h2>
+        <p>Working to reduce waste and support a circular economy.</p>
+        <a href="#" class="btn btn-light w-100 mt-auto">Learn more</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Newsletter signup -->
+  <div class="container-fluid bg-light text-dark py-5">
+    <div class="row">
+      <div class="col-12 col-md-8 col-lg-6 mx-auto">
+        <h2 id="newsletter-heading">Intel Sustainability Newsletter</h2>
+        <p>Get updates on sustainability progress and initiatives.</p>
+        <form aria-labelledby="newsletter-heading">
+          <div class="mb-3">
+            <label for="newsletter-email" class="form-label">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="newsletter-email"
+              name="email"
+              autocomplete="email"
+              aria-describedby="newsletter-help"
+              required
+            />
+            <div id="newsletter-help" class="form-text">
+              Enter a valid email address to subscribe.
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer links are placeholders until real pages are available. -->
+  <footer class="container-fluid bg-dark text-white py-4">
+    <div class="row align-items-center gy-3">
+      <div class="col-12 col-md-6">
+        <p class="mb-0">&copy; 2026 Intel Corporation. All rights reserved.</p>
+      </div>
+      <div class="col-12 col-md-6">
+        <nav aria-label="Footer navigation">
+          <ul class="nav justify-content-center justify-content-md-end">
+            <li class="nav-item">
+              <a class="nav-link link-light px-2" href="#">Privacy Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light px-2" href="#">Terms of Use</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
